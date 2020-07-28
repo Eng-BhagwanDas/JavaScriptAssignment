@@ -1,0 +1,29 @@
+.chap{
+    /* background-color: cornsilk; */
+    text-align: center;
+    font-size: large;
+    /* width: 50em; */
+    /* justify-content: center; */
+    /* padding-left: 20%; */
+    /* padding-right: 15% ; */
+    
+}
+.jumbotron{
+    height: 15em;
+}
+.lead{
+    font-style: italic;
+    color: red;
+    text-align: center;
+}
+.display-4{
+    text-align: center;
+}
+a:link, a:visited {
+    /* background-color: #f44336; */
+    color: white;
+    /* padding: 15px 25px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
