@@ -1,0 +1,14 @@
+var priceItem1 = 650;
+var priceItem2 = 100;
+var quantityItem1 = 3;
+var quantityItem2 = 7;
+var shippingCharges = 100;
+var total1=quantityItem1*priceItem1;
+var total2=quantityItem2*priceItem2;
+var totalCost = shippingCharges + total1 + total2;
+document.write("Price of item 1 is " + priceItem1);
+document.write("<br> Quantity of item 2 is " + quantityItem1);
+document.write("<br> Price of item 2 is " + priceItem2);
+document.write("<br> Quantity of item 2 is " + quantityItem2);
+document.write("<br> Shipping Charges is " + shippingCharges);
+document.write("<br> Total cost of your order is " + totalCost);
